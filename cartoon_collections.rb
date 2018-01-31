@@ -21,12 +21,3 @@ def long_planeteer_calls(long_calls)
     end 
     false
 end 
-
-def find_the_cheese(array)
-  
-  if (array.include?("cheddar") || array.include?("gouda") || array.include?("cambert"))
-      return
-  else    
-    false
-  end
-end    
